@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 15px;
+    
+    
+}
+nav{
+    display: flex  ;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+ul{
+    display: flex;  
+}
+li{
+    
+    margin-right: 20px;
+    list-style: none;
+}
+li:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration:none;
+    color: black;
+    font-size: 20px;
+}
+.menu,.pp{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.google{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   width: 100%;
+    
+    height: 100vh;
+}
+section{
+
+   display: block;
+   top: -30px;
+   text-align: center;
+   height: auto;
+
+}
+.length{
+    width: 30%;
+    height: auto;
+}
+.text-area{
+    position: relative;
+    border-radius: 24px;
+    width: 582px;
+    padding: 14px;
+    
+    outline: none;
+    z-index: 40;
+}
+.text-area:hover{
+    box-shadow: 5px 5px 5px 5px lightgrey;
+}
+button{
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid white ;
+}
+button:hover{
+    border:1px solid lightgrey
+}
+.mic{
+    position: relative;
+    left:-62px;
+    top: 8px;
+    z-index: 60;
+}
+.front{
+    position: relative;
+    left:-575px;
+    top: 8px;
+    z-index: 60;
+}
+.app-drawer{
+    position: absolute;
+    width: 285px;
+    padding: 10px;
+    right: 100px;
+    border: 1px solid lightcyan;
+    box-shadow:10px 5px 5px 5px lightgray;
+    display: none;
+   
+}
+.dropdown:hover 
+.app-drawer{
+    display: block;
+}
+.dropdown{
+    display: inline-block;
+}
+.app{
+    
+    display: inline-block;
+    width: 84px;
+    border:1px solid white;
+    margin-top: 15px;
+    text-align: center;
+    
+}
+.app > img{
+    height: 50px;
+    width: 50px;
+}
+.app > p{
+    margin-top: 5px;
+}
+.app:hover{
+    border:1px solid lightslategray;
+    border-radius: 8px;
+}
